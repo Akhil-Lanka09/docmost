@@ -9,7 +9,7 @@ services:
     environment:
       APP_URL: 'http://localhost:3000'
       APP_SECRET: 'REPLACE_WITH_LONG_SECRET'
-      DATABASE_URL: 'postgresql://docmost:STRONG_DB_PASSWORD@db:5432/docmost?schema=public'
+      DATABASE_URL: 'postgresql://docmost_database_user:O7GhfInEig286WpM6CM51NcJZ1GhqKms@dpg-d06a5iqli9vc73e5dtn0-a/docmost_database'
       REDIS_URL: 'rediss://red-d087ams9c44c73bk54cg:duzMejim7hpqhuepHCUledYjI30IUff8@oregon-keyvalue.render.com:6379'
     ports:
       - "3000:3000"
